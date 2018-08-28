@@ -14,7 +14,7 @@ namespace FahrToCel
             
 
              
-            double c = (temperature - 32) * 5 / 9;
+            double c = Convert.ToDouble((temperature - 32.0) * 5 / 9);
             Console.WriteLine(temperature + " degrees fahrenheit is " + c + " degrees celsius");
             Console.ReadLine();
                 
